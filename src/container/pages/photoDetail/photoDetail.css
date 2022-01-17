@@ -32,3 +32,9 @@ main > .photoDetail > .tools {
     border: none;
     cursor: pointer;
 }
+
+.transform-component-module_content__2jYgh > .lds-ring {
+    top: calc(50vh - 120px);
+    position: relative;
+    left: calc(50vh - 100px);
+}
