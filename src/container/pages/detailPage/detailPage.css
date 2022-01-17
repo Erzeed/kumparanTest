@@ -1,0 +1,106 @@
+main {
+    padding-top: 20px;
+}
+
+.dataUser > .dataProfil ,
+.dataUser > .album {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin: 10px auto;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.dataUser > .dataProfil > .banner {
+    width: 100%;
+    height: 400px;
+}
+
+.dataUser > .dataProfil > .banner > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.dataUser > .dataProfil > .profileData {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    top: -75px;
+}
+
+.profileData > .card {
+    position: absolute;
+}
+
+.profileData > .card > .cardheader > .profile {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.profileData > .card > .cardheader > .profile > img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.profileData > .card > .cardheader > .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.profileDetail {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profileDetail > * p {
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 15px;
+    margin: 5px 0;
+}
+
+
+.dataUser > .album {
+    padding: 20px;
+}
+
+.dataUser > .album > .title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.dataUser > .album > .allAlbum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.album > .allAlbum > img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    transition: .1s ease-in;
+}
+
+.album > .allAlbum > img:hover{
+    cursor: pointer;
+    transform: scale(0.97);
+}
+
+.allAlbum > .lds-ring,
+.album > .title > .lds-ring  {
+    position: relative;
+    top: calc(50vh - 120px);
+    left: 0;
+}

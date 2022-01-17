@@ -1,0 +1,57 @@
+main {
+    padding-top: 20px;
+}
+
+main > .postDetail > .post ,
+main > .postDetail > .commentContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px auto;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    transition: .1s ease-in;
+}
+
+main > .postDetail > .comments:hover {
+    cursor: default;
+}
+
+.comments {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.comments > .commentHeader {
+    display: flex;
+}
+
+.comments > .commentHeader > .commentImg {
+    display: flex;
+    background-color: rgb(46, 159, 252);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.commentHeader > .commentImg > img {
+    width: 30px;
+    height: 90%;
+    object-fit: contain;
+}
+
+.commentHeader > .commentName {
+    margin-left: 10px;
+}
+
+.comments > .commentBody {
+    margin-left: 40px;
+}
+
+.card > .cardheader > .name > p:hover{
+    cursor: pointer;
+}
+
